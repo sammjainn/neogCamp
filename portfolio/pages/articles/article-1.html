@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blogs</title>
+    <link rel="stylesheet" href="/style.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+      integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp"
+      crossorigin="anonymous"
+    />
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+  </head>
+  <body>
+    <nav class="navigation container">
+      <div class="nav-brand">
+        <lottie-player
+          src="https://assets5.lottiefiles.com/datafiles/Es8ZRirUb4FwfVS/data.json"
+          background="transparent"
+          speed="1"
+          style="width: 100px; height: auto"
+          hover
+          loop
+          autoplay
+        ></lottie-player>
+      </div>
+      <ul class="list-non-bullet nav-pills">
+        <li class="list-item-inline">
+          <a class="link" href="../../">home</a>
+        </li>
+        <li class="list-item-inline">
+          <a class="link" href="../projects.html">projects</a>
+        </li>
+        <li class="list-item-inline">
+          <a class="link link-active" href="../blogs.html">blogs</a>
+        </li>
+      </ul>
+    </nav>
+
+    <section class="article container container-center">
+      <h2 class="text-center m-3">Chart.js with React | react-chartjs-2</h2>
+      <div>
+        <b>Chart.js</b> is a JavaScript library that can be used to create charts and
+        graphs with ease. <b>ReactJS</b> is JavaScript library used for building
+        reusable UI components.<br><br> Using Chart.js along with ReactJS allows us to
+        create multiple charts using components and dynamic data.</p>
+        <br>
+        <p>Chart.js
+        can be used to create <b>8 types of charts:</b><br>
+        Line, Bar, Radar, Doughnut & Pie, Polar Area, Bubble, Scatter, Area, and Mixed.</p>
+        
+        <h4>Pre-requisites:</h4>
+        <p>Installation of ReactJS& NodeJS.</p> <br>
+        <p>Start a project using</p>
+        <span class="code m-2 p-1"> npx create-react-app graphs</span>
+        <p>Change directory to the project graphs</p>
+        <span class="code m-2 p-1"> cd graphs</span>
+        <p>Start the server using the command </p>
+        <span class="code m-2 p-1"> npm start</span>
+
+        <h4>INSTALLATION:</h4>
+        <p>We will install react-chartjs-2 which is a React wrapper for Chart.js </p>
+        <span class="code m-2 p-1">npm install --save react-chartjs-2 chart.js</span>
+        <p>Alternatively, download the latest version of Chart.js from Github or use CDN links in script tags.</p>
+
+        <h3>1. BAR CHART</h3>
+        <p><b>In App.js,</b></p>
+        <div><img src="../../images/article1/code1.PNG"></div>
+
+        <p><b>Create new file Plot.js,</b></p>
+        <p>This file receives data from our App.js file as props and uses it to plot the charts </p>
+        <div><img src="../../images/article1/code2.PNG"></div>
+        <p>Apply some styles in App.css if you want. The output looks like this: </p>
+        <img src="../../images/article1/gfg1.PNG">
+        <h4>For Line, Pie and other charts </h4>
+        <p>We will use the same data to see how Chart.js can be used to plot other types of charts. <br>In render() method of App.js, the Bar component can be changed to Line or Pie component</p>
+
+        <h3>2. PIE CHART</h3>
+        <p>Example</p>
+        <div><img src="../../images/article1/code3.PNG"></div>
+        <img src="../../images/article1/gfg2.PNG">
+
+        <h3>3. LINE CHART</h3>
+        <p><b>Tip:</b> Play around with properties like fill, line tension, etc to get some visually appealing results. Check out the official <a href="https://www.chartjs.org/docs/latest/" target="_blank">documentation</a> for more details.<br>Example</p>
+        <div><img src="../../images/article1/code4.PNG"></div>
+        <img src="../../images/article1/gfg3.PNG">
+      </div>
+    </section>
+
+    <footer id="footer">
+      <div class="footer-header">Let's connect!</div>
+      <div>
+        <a
+          class="link"
+          href="https://www.linkedin.com/in/samjain123/"
+          target="_blank"
+        >
+          <span class="fab fa-linkedin fa-2x"></span>
+        </a>
+        <a class="link" href="https://github.com/sammjainn" target="_blank">
+          <span class="fab fa-github fa-2x"></span>
+        </a>
+        <a class="link" href="https://twitter.com/sammjainn" target="_blank">
+          <span class="fab fa-twitter fa-2x"></span>
+        </a>
+        <a
+          class="link"
+          href="https://www.youtube.com/channel/UCfHQO_DE9UTEOMP8q0ZnmNw/"
+          target="_blank"
+        >
+          <span class="fab fa-youtube fa-2x"></span>
+        </a>
+      </div>
+    </footer>
+  </body>
+</html>
