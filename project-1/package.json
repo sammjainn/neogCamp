@@ -1,0 +1,15 @@
+{
+  "name": "project-1",
+  "version": "1.0.0",
+  "description": "***How well do you know me?*** is a fun CLI quiz made on repl.it",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "readline-sync": "^1.4.10"
+  }
+}
