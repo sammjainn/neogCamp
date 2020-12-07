@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  --primary-color: #e2c044;
+  --secondary-color: #292f36;
+}
+body {
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+}
+.text-center {
+  text-align: center;
+}
+textarea {
+  display: block;
+  margin: 1rem auto;
+  padding: 1rem;
+  max-width: 800px;
+  min-width: 300px;
+  width: 50%;
+  height: fit-content;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 1.3rem;
+}
+header {
+  margin: 2rem;
+}
+.heading {
+  margin: 1rem;
+}
+#btn-translate {
+    border:none;
+  padding: 0.8rem 1.3rem;
+  background-color: var(--primary-color);
+  border-radius: 5px;
+  outline: none;
+  color: white;
+  display: block;
+  margin: auto;
+  font-size: large;
+}
+#btn-translate:hover {
+  background-color: #d4ad21 !important;
+}
+footer {
+  background-color: var(--primary-color);
+  color: black;
+  padding: 0.5rem;
+  font-size: larger;
+}
+
+.meme {
+  position: relative;
+  color: white;
+  background: url('/mocking_spongebob.0.jpg') center center/cover;
+  width: 50vw;
+  height: 33vw; /* aspect ratio 3:2 */
+  display: block;
+  margin: 2rem auto 4rem;
+  min-width: 300px;
+  min-height: 200px;
+  font-weight: bold;
+}
+#first-line {
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+#second-line {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+@media (min-width: 800px) {
+  .meme {
+    font-size: 1.5rem;
+  }
+}
