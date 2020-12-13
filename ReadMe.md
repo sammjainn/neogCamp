@@ -2,6 +2,12 @@
 
 This repsitory contains the source codes of some projects I have made as part of level 0 of neogCamp:
 
+1. MusicBox
+> Listen to my favourite music, sorted by genre, made using ReactJS
+> - Check out the live site [here](https://hhp5y.csb.app/)
+1. Emojipedia
+> An emoji interpretor made with ReactJS
+> - Check out the live site [here](https://40u7n.csb.app/)
 1. Spongebob meme generator
 > ***SpongeMock*** is a meme generator for the spongebob mocking meme. 
 > - Check out the live site [here](https://sponge-mock.netlify.app/)
