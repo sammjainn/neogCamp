@@ -72,8 +72,9 @@ h4 {
   border: 1px solid var(--primary-color);
 }
 .link-primary:hover {
-  background-color: var(--primary-color);
-  color: white;
+  background-color: transparent;
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
 }
 .link-secondary:hover {
   background-color: var(--primary-color);
@@ -186,7 +187,9 @@ h4 {
   padding: 0;
   margin: 0;
 }
-
+#footer .link .fab:hover {
+  color: var(--light-gray);
+}
 /* BLOGS */
 #blogs {
   background: url('/images/07.png') repeat center top/cover;
