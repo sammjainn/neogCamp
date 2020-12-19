@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+:root {
+  --primary-color: #fff;
+  --background-color: #000;
+  --secondary-color: #1db954;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Roboto;
+  text-align: center;
+  color: var(--primary-color);
+  caret-color: var(--primary-color);
+  background: var(--background-color);
+}
+header {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 1)),
+    url('header.jpg') center center/cover no-repeat;
+  height: 30rem;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-flow: column nowrap;
+}
+header p {
+  margin-top: 1rem;
+}
+.buttons {
+  margin-top: 4rem;
+}
+.buttons button,
+.songContent a {
+  cursor: pointer;
+  border: none;
+  border-radius: 1rem;
+  padding: 0.5rem 0.8rem;
+  margin: 0.5rem;
+  background-color: var(--secondary-color);
+  outline: none;
+}
+.buttons button {
+  font-weight: bolder;
+  font-size: 1rem;
+}
+.buttons button:hover,
+.songContent a:hover {
+  background-color: #199f48;
+}
+.songs {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  grid-gap: 1rem;
+  margin: 1rem auto;
+  padding: 1rem;
+  max-width: 1000px;
+}
+.song {
+  display: flex;
+  flex-flow: column wrap;
+  border: #333 2px solid;
+  border-radius: 5px;
+  width: 300px;
+  transition: box-shadow 0.3s;
+}
+.songImg {
+  width: 100%;
+}
+.songContent {
+  text-align: center;
+  height: 150px;
+}
+.songContent h4 {
+  font-size: 1.5rem;
+  margin: 0.5rem;
+}
+.songContent a {
+  text-decoration: none;
+  margin-top: 1rem;
+  display: inline-block;
+  color: black;
+}
+.song:hover {
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.7);
+}

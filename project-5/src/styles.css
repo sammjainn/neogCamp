@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+:root {
+  --primary-color: #fff;
+  --background-color: #121212;
+  --secondary-color: #333;
+}
+body {
+  font-family: Roboto;
+  text-align: center;
+  color: var(--primary-color);
+  caret-color: var(--primary-color);
+  background: var(--background-color);
+  background: radial-gradient(
+    circle,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(18, 18, 18, 1) 67%,
+    rgba(51, 51, 51, 1) 100%
+  );
+}
+.heading {
+  margin: 3rem auto 1rem;
+}
+.outemoji,
+.inemoji {
+  background-color: var(--secondary-color);
+  width: 70%;
+  margin: auto;
+  margin-top: 1rem;
+  font-size: 1.5rem;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  padding: 0.5rem;
+  text-align: center;
+  max-width: 700px;
+}
+.inemoji::placeholder {
+  color: var(--primary-color);
+}
+.emojiList {
+  width: 80%;
+  margin: 1rem auto;
+  margin-bottom: 3rem;
+  max-width: 800px;
+}
+.emoji {
+  padding: 0.5rem;
+  margin: 0.5rem;
+  line-height: 2.5rem;
+  font-size: 1.5rem;
+  font-weight: 800;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.emoji:hover {
+  background-color: var(--secondary-color);
+}
